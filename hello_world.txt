@@ -1,1 +1,2 @@
 "Hello Chang, I see you're learning "The Odin Project". How is it going for you?"
+"This is to test the commit with the -m"
