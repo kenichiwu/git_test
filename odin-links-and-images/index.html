@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practices with Links and Images</title>
+</head>
+<body>
+    <!-- Finish the preparation time to add in some anchor elements -->
+    <h1>Homepage</h1>
+    <!-- We're going to add an anchor element defined by <a> to the body-->
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    <!-- Tutorial thinks I will click it, sounds like Im to save and see for myself what I coded. -->
+    <!-- So I saved and exit, then opened it with terminal. After that I didn't see a link. I wonder what I did wrong... Time to go back and review the instructions...-->
+    <!-- After reading, looks like I need to add "href". Hypertext Reference. Lets go back and edit above-->
+    <!-- Underlined words means its a link... Lets save and go check!-->
+    <!-- Well before the new edit, the text just looked like regular font. Black color nothing to it. After adding the href, the text turned blue and I was able to click it fine and get directed to the link I coded above.-->
+    <!-- I want to try linking to youtube.-->
+    <p>
+        <a href="https://www.youtube.com">Youtube</a>
+    </p>
+
+    <!-- Weird! I was hoping the link would be below the odin project link. Lets try adding <p>-->
+    <!-- Nice that worked. So I thought adding another attribute would go below the first attribute. So I thought adding <p> will help make a new paragraph. WOrked for me!-->
+    <!-- Onto Opening links in a new tab-->
+    <!-- from my understanding, what we did above only changed that tab itself. We need to add something called target and to set it as _blank and that will create a new tab and open the href. Lets give it a go!-->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+    <!-- So I didnt read it fully and was baffled about the rel and noopener attributes. Its nice to know that you have to add more attributes to make sure you dont get a security risk. Something like noopener.-->
+    <!-- nice so noopener makes sure the new tab doesnt mess with the original tab, and noreferrer cannot track where you came from.-->
+    <!-- Its good to know rel, new browsers have automatically added these technologies but its still great to know as a foundation and to code as a good practice.-->
+    
+    <!-- Okay on to the next... Absolute and relative links! Lets go!-->    
+    <!-- Wow so I typed the url wrong for the scheme and domain. Above I typed .com/About and was linked to a no page created. I did not know it was case sensitive. So I changed it to .com/about and was able to get directed correctly. I had tthought that it was just the odin project messing up on their end. Im glad its not.-->
+    <!-- time to make a about page-->
+    <p>
+        <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+        <a href="about.html">About</a>
+        <!-- I had copied and linked, it seems like odin project wants to keep track of their students linking into the about page. As the copied code did not have rel with noopner and noreferrer. Interesting indeed..... Lets do whtat they want and leave it blank-->
+        <!-- time to create and organize the htmls into their folders-->
+    </p>
+
+</body>
+</html>
